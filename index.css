@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+:root {
+    --color-terminal: #292b36;
+    --edge--round: 4px;
+}
+
+*{
+    font-family: 'Source Code Pro', monospace;
+}
+
+body{
+    height:  100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5c4b7a;
+    color: #f0f0f0;
+}
+
+input, button{
+    border: none;
+    outline: none;
+}
+
+main{
+    padding: 25px;
+    box-shadow: 8px 8px 35px 0px rgba(0 0 0 / 75%);
+    border-radius: var(--edge--round);
+}
+
+h1{
+    margin:0;
+
+}
+#input-original, #result{
+    background-color: var(--color-terminal);
+    width: 400px;
+}
+#input-original{
+    margin: 10px 0 0;
+    padding: 10px;
+    color: white;
+    border-top-left-radius: var(--edge--round);
+    border-top-right-radius: var(--edge--round);
+}
+
+#result{
+    height: 20px;
+    color: #5af78d;
+    padding: 0 10px 10px;
+    border-bottom-left-radius: var(--edge--round);
+    border-bottom-right-radius: var(--edge--round);
+}
+
+.rank{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 30 px;
+    text-align: center;
+}
+
+input[type="range"]{
+    -webkit-appearance: none;
+    background-color: var(--color-terminal);
+    border-radius: var(--edge--round);
+    margin: 0;
+    padding: 0 5px;
+    height: 20px;
+}
+input[type="range"]::-webkit-slider-thumb{
+    --webkit-appearance: none;
+    cursor: pointer;
+    height: 10px;
+    width: 10 px;
+    background-color: white;
+    border-radius: 50%;
+}
+

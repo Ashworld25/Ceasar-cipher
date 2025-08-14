@@ -1,0 +1,21 @@
+{
+  "name": "caesar-cipher",
+  "version": "1.0.0",
+  "description": "\"# Ceasar-cipher\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo No hay nada que compilar"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashworld25/Ceasar-cipher.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ashworld25/Ceasar-cipher/issues"
+  },
+  "homepage": "https://github.com/Ashworld25/Ceasar-cipher#readme"
+}
